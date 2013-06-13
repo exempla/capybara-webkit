@@ -2,11 +2,11 @@ $:.push File.expand_path("../lib", __FILE__)
 require "capybara/driver/webkit/version"
 
 Gem::Specification.new do |s|
-  s.name     = "capybara-webkit"
+  s.name     = "imseng-capybara-webkit"
   s.version  = Capybara::Driver::Webkit::VERSION.dup
-  s.authors  = ["thoughtbot", "Joe Ferris", "Matt Mongeau", "Mike Burns", "Jason Morrison"]
-  s.email    = "support@thoughtbot.com"
-  s.homepage = "http://github.com/thoughtbot/capybara-webkit"
+  s.authors  = ["imseng", "Thoughtbot", "Joe Ferris", "Matt Mongeau", "Mike Burns", "Jason Morrison"]
+  s.email    = "darrin.wortlehock@db.com"
+  s.homepage = "http://github.com/imseng/capybara-webkit"
   s.summary  = "Headless Webkit driver for Capybara"
 
   s.files        = `git ls-files`.split("\n")

@@ -17,3 +17,5 @@ src/webkit_server.exe
 tmp
 .rvmrc
 src/debug
+Gemfile.lock
+
